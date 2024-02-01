@@ -44,6 +44,7 @@ export default async function BarbershopDetailsPage({
             key={service.id}
             service={service}
             isAuthenticated={!!session?.user}
+            barbershop={barbershop}
           />
         ))}
       </div>
